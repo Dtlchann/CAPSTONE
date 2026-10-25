@@ -1,0 +1,10 @@
+﻿Parameter,Value,Unit,Status
+Population_Size_Npop,100,solutions,Initial algorithm setting
+Max_Generations_Gmax,300,generations,Initial algorithm setting
+Crossover_Probability_Pc,0.9,ratio,Initial algorithm setting
+Mutation_Probability_Pm,0.1,ratio,Initial algorithm setting
+SA_Initial_Temperature_T0,100,algorithm unit,Initial algorithm setting
+SA_Cooling_Rate_theta,0.95,ratio,Initial algorithm setting
+SA_Iterations_per_Offspring,30,iterations,Initial algorithm setting
+Random_Seed,42,integer,Initial algorithm setting
+Termination_Rule,Gmax or convergence,text,Initial algorithm setting

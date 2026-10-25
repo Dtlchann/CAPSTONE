@@ -1,0 +1,15 @@
+﻿Metric,Value,Unit
+Selected suppliers,12,suppliers
+Direct-capable suppliers,6,suppliers
+Selected stores,10,stores
+Existing DC,1,DC
+Candidate DCs,3,DCs
+Refrigerated vehicles,8,vehicles
+Historical study-period order quantity,168490.0,units
+Historical direct quantity,9364.0,units
+Historical via-DC quantity,159126.0,units
+Historical direct share,0.0556,ratio
+Planning weekly demand,19023.0,kg-equivalent/week
+Planning weekly supplier capacity,23151.7,kg-equivalent/week
+Supply capacity headroom,0.217,ratio
+Network arcs,278,arcs

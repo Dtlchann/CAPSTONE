@@ -1,0 +1,10 @@
+﻿Parameter,Value,Unit,Component,Status
+Fuel_Price,23000,VND/L,Transport cost,Planning input
+Driver_Cost,75000,VND/h,Transport cost,Planning input
+Maintenance_Cost,3500,VND/km,Transport cost,Planning input
+Vehicle_Fixed_Dispatch_Cost,300000,VND/trip,Transport cost,Planning input
+Diesel_Emission_Factor,2.68,kg CO2/L,CO2 objective,Planning input
+Product_Value_M,45000,VND/kg-equivalent,Freshness-loss cost,Planning input
+Freshness_Alpha,0.006,1/hour,Freshness-loss cost,Planning input
+Supplier_Loading_Cost,150,VND/kg-equivalent,Handling cost,Planning input
+Store_Unloading_Cost,100,VND/kg-equivalent,Handling cost,Planning input

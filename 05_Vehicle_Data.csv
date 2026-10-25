@@ -1,0 +1,9 @@
+﻿Vehicle_ID,Vehicle_Type,Capacity_kgEq,Base_Fuel_A_L_km,Payload_Fuel_B_L_km_full_load,Reefer_Fuel_C_L_h,Fixed_Dispatch_Cost_VND_trip,Driver_Cost_VND_h,Maintenance_Cost_VND_km,Max_Route_Time_h,Available,Data_Status
+V01,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V02,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V03,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V04,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V05,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V06,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V07,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input
+V08,Refrigerated medium truck,2500,0.16,0.06,1.2,300000,75000,3500,10,1,Planning fleet input

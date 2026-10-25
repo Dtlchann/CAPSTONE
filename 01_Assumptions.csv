@@ -1,0 +1,17 @@
+﻿Parameter,Value,Unit,Status,Purpose
+Study_Start_Date,2026-06-20,date,Observed,Start of historical period
+Study_End_Date,2026-08-20,date,Observed,End of historical period
+Study_Weeks,8.8571,weeks,Derived,Historical normalization
+Planning_Horizon,7,days,Planning input,Weekly optimization horizon
+Demand_Growth_Factor,1.0,ratio,Planning input,Convert historical average to planning demand
+KgEq_per_Historical_Unit,1.0,kg-equivalent/unit,Planning input,Prototype quantity normalization
+Supplier_Capacity_Factor,1.7,multiplier,Planning input,Capacity headroom over observed weekly volume
+Minimum_Supplier_Capacity,800.0,kg-equivalent/week,Planning input,Minimum capacity for active supplier candidates
+Road_Distance_Factor,1.25,multiplier,Planning input,Convert geodesic distance to road-distance proxy
+Average_Road_Speed,45.0,km/h,Planning input,Travel-time proxy
+Fuel_Price,23000,VND/L,Planning input,Fuel cost
+Diesel_Emission_Factor,2.68,kg CO2/L,Planning input,Tank-to-wheel CO2 calculation
+Product_Commercial_Value_M,45000,VND/kg-equivalent,Planning input,Freshness-loss cost
+Freshness_Alpha,0.006,1/hour,Planning input,Exponential freshness decay
+Initial_Freshness,1.0,ratio,Model convention,Freshness at shipment origin
+Existing_DC_Forced_Active,1,binary,Model requirement,DC901 remains active

@@ -1,0 +1,2 @@
+﻿Product_ID,Product_Category,Commercial_Value_M_VND_kgEq,Freshness_Alpha_per_h,Initial_Freshness,Target_Temperature_C,Minimum_Freshness_Constraint,Data_Status
+P1,Fresh Fruit (aggregated),45000,0.006,1.0,2-8,Not enforced,Planning product parameters

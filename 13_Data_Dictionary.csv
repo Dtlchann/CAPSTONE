@@ -1,0 +1,13 @@
+﻿Dataset,Field,Definition,Status
+Supplier_Data,Planning_Capacity_kgEq_week,Maximum supplier quantity available in one planning week for the prototype model.,Derived planning input
+Store_Data,Planning_Demand_kgEq_week,Weekly store demand derived from historical average order quantity.,Derived
+DC_Data,Planning_Capacity_kgEq_week,Fresh-fruit capacity allocated to the DC in the prototype.,Planning input
+Vehicle_Data,Capacity_kgEq,Maximum normalized fresh-fruit payload per vehicle.,Planning input
+Vehicle_Data,Base_Fuel_A_L_km,Distance-related fuel consumption when vehicle is operating with minimal payload.,Planning input
+Vehicle_Data,Payload_Fuel_B_L_km_full_load,Additional fuel consumption at full payload; scaled by arc load ratio in the model.,Planning input
+Vehicle_Data,Reefer_Fuel_C_L_h,Fuel consumption of the refrigeration unit per operating hour.,Planning input
+Product_Freshness,Freshness_Alpha_per_h,Freshness deterioration coefficient in phi(t)=exp(-alpha*t).,Planning input
+Arc_Data,Road_Distance_Proxy_km,Geodesic distance multiplied by road-distance factor 1.25.,Derived planning proxy
+Arc_Data,Travel_Time_Proxy_h,Road-distance proxy divided by average road speed.,Derived planning proxy
+Historical_Flow,Historical_Direct_Qty,Observed supplier-to-store quantity in the direct channel during the study period.,Derived from operational records
+Historical_Flow,Historical_Via_DC901_Qty,Observed supplier-store quantity associated with the DC901 channel during the study period.,Derived from operational records

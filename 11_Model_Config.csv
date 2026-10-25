@@ -1,0 +1,13 @@
+﻿Setting,Specification
+Objective_1,Minimize total logistics cost
+Objective_2,Minimize maximum delivery time
+Objective_3,Minimize total CO2 emissions
+Existing_DC,DC901 fixed active
+Product_Granularity,Fresh Fruit aggregated
+Demand_Satisfaction,Direct + via-DC flow = store demand
+Supplier_Capacity,Total supplier outflow <= supplier capacity
+DC_Capacity,Inbound/outbound flow constrained by activated DC capacity
+Vehicle_Capacity,Arc load <= vehicle capacity
+Routing,Route continuity + store service + subtour elimination
+Freshness,Exponential decay included in freshness-loss cost
+Carbon_Cap,Not imposed; CO2 is minimized as an objective
